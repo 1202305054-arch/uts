@@ -6,7 +6,7 @@ if (!isset($_SESSION['login'])) {
 }
 ?>
 <?php include 'config.php';
-
+//typo
 $id = $_GET['id'];
 $data = mysqli_query($koneksi, "SELECT * FROM barang WHERE id='$id'");
 $d = mysqli_fetch_array($data);
