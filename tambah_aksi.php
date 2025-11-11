@@ -7,7 +7,7 @@ if (!isset($_SESSION['login'])) {
 ?>
 <?php
 include 'config.php';
-
+//tambah
 $nama = $_POST['nama_barang'];
 $jumlah = $_POST['jumlah'];
 $lokasi = $_POST['lokasi'];
